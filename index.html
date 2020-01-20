@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="assets/css/stlye.css">
+</head>
+<body>
+    <div id="container">
+        <button type="button" id="start-btn" class="started-btn">Start</button>
+        <div id="choices">
+            <div class="choice" id="a" onclick="checkAnswer ('a')"></div>
+            <div class="choice" id="b" onclick="checkAnswer ('b')"></div>
+            <div class="choice" id="c" onclick="checkAnswer ('c')"></div>
+            <div class="choice" id="d" onclick="checkAnswer ('d')"></div>
+        </div>
+        <div id="timer"></div>
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        <div id="myScore" style="display: none;"></div>
+    </div>
+</body>
+<script src="assets/javascript/script.js"></script>
+<script src="assets/javascript/questions.js"></script>
+</html>
