@@ -1,10 +1,28 @@
-.started-btn {
-    text-align: center;
-    justify-content: center;
-    margin-top: 300px;
-    background-color: purple;
-    padding: 15px;
-    color: white;
-    border: groove violet;
+.nav {
+    ;
 }
+.view {
+    float: left;
+    margin-top: 20px;
+}
+.time {
+    float: right;
+    margin-top: -60px;
+}
+#quiz {
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: purple;
+    padding: 10px;
+}
+button:hover {
+    background-color: rgb(170, 63, 13);
+}
+input {
+    border-color: rgb(84, 71, 201);
+}
+input:hover {
+    background-color: pink;
 }

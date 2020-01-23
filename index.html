@@ -7,19 +7,15 @@
     <link rel="stylesheet" href="assets/css/stlye.css">
 </head>
 <body>
-    <div id="container">
-        <button type="button" id="start-btn" class="started-btn">Start</button>
-        <div id="choices">
-            <div class="choice" id="a" onclick="checkAnswer ('a')"></div>
-            <div class="choice" id="b" onclick="checkAnswer ('b')"></div>
-            <div class="choice" id="c" onclick="checkAnswer ('c')"></div>
-            <div class="choice" id="d" onclick="checkAnswer ('d')"></div>
-        </div>
-        <div id="timer"></div>
-            <div id="counter"></div>
-            <div id="btimeGauge"></div>
-            <div id="timeGauge"></div>
-        <div id="myScore" style="display: none;"></div>
+    <div class="nav row>
+        <div class="col-md-6 view"><a onclick="getScore()" href="#"><h4 >View Highscore</h4></a></div>
+        <div class="col-md-6 time"><h4>Time: <span id="timeLeft">0</span></h4></div>
+    </div>
+    <div id="quiz">      
+        <h1><b>Coding Quiz Challenge</b></h1>
+        <h3>Welcome to JavaScript Quiz</h3>
+        <button type="button" onclick="start()">Start Quiz</button>
+        <hr>
     </div>
 </body>
 <script src="assets/javascript/script.js"></script>
