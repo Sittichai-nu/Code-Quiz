@@ -14,7 +14,7 @@ let questions= [{
         "B: Math.round(7.25",
         "C: rnd(7.25)",
         "D: Math.rnd(7.25)"],
-        answer : "B: Math.round(7.25)", 
+        answer : "B: Math.round(7.25", 
     },{
 
         title : "Where is the correct place to insert a JavaScript",
@@ -25,13 +25,13 @@ let questions= [{
         "D: The <container> section"], 
         answer : "A: Both the <head> section and the <body> section", 
     },{
-        qtitle : "Which event occurs when the user clicks on an HTML element?",
+        title : "Which event occurs when the user clicks on an HTML element?",
         choices : [
         "A: onMouseOver",
         "B: onMouseClick",
         "C: onClick",
         "D: onChange",],
-        answer : "C: onClickc", 
+        answer : "C: onClick", 
     },{
         title : "How do you create a function in JavaScript?",
         choices : [

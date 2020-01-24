@@ -1,6 +1,3 @@
-.nav {
-    ;
-}
 .view {
     float: left;
     margin-top: 20px;
@@ -11,11 +8,14 @@
 }
 #quiz {
     text-align: center;
+  
 }
 button {
     color: white;
     background-color: purple;
     padding: 10px;
+
+
 }
 button:hover {
     background-color: rgb(170, 63, 13);
